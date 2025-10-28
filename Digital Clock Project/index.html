@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="clock.css">
+</head>
+
+<body>
+
+    <div
+        class="lg:min-h-[100vh] md:min-h-[100vh] min-h-[100vh] w-full lg:w-full md:w-full  bg-gray-800 relative text-white">
+
+        <div
+            class="lg:w-120 md:w-80 w-50 lg:h-[180px] md:h-[140px] h-[100px] absolute lg:top-50 md:top-50 top-50 lg:left-100 md:left-60 left-15 bg-linear-to-r/decreasing from-red-400 to-gray-500 rounded-xl lg:rounded-xl md:rounded-xl">
+            <div
+                class="w-[100%] lg:w-[100%] md:w-[100%] h-[100%] lg:h-[100%] md:h-[100%] rounded-lg flex items-center justify-center">
+                <span id="hours"
+                    class="text-[50px] lg:text-[80px] md:text-[60px] w-25 lg:w-[110px] md:w-[800px] lg:inline-block md:inline-block text-center lg:text-center md:text-center lg:relative md:relative lg:after:content-['HOURS'] md:after:content-['HOURS'] after:content-['HOURS'] after:text-[8px] md:after:text-[12px] lg:after:text-[16px] after:absolute md:after:absolute lg:after:absolute after:bottom-[4px] md:after:bottom-[-5px] lg:after:bottom-[-5px] after:left-[8%] md:after:left-[25%] lg:after:left-[25%] md:after:translateX(-50%) after:translateX(-50%)">00</span>
+                <span
+                    class="text-[50px] lg:text-[80px] md:text-[60px] w-25 lg:w-[110px] md:w-[800px] lg:inline-block md:inline-block text-center lg:text-center md:text-center lg:relative md:relative ">:</span>
+                <span id="min"
+                    class="text-[50px] lg:text-[80px] md:text-[60px] w-25 lg:w-[110px] md:w-[800px] lg:inline-block md:inline-block text-center lg:text-center md:text-center lg:relative md:relative  lg:after:content-['MIN'] md:after:content-['MIN'] after:content-['MIN'] after:text-[8px] md:after:text-[12px] lg:after:text-[16px] after:absolute md:after:absolute lg:after:absolute after:bottom-[4px] md:after:bottom-[-5px] lg:after:bottom-[-5px] after:left-[45%] md:after:left-[35%] lg:after:left-[35%] md:after:translateX(-50%) after:translateX(-50%)">00</span>
+                <span
+                    class="text-[50px] lg:text-[80px] md:text-[60px] w-25 lg:w-[110px] md:w-[800px] lg:inline-block md:inline-block text-center lg:text-center md:text-center lg:relative md:relative ">:</span>
+                <span id="sec"
+                    class="text-[50px] lg:text-[80px] md:text-[60px] w-25 lg:w-[110px] md:w-[800px] lg:inline-block md:inline-block text-center lg:text-center md:text-center lg:relative md:relative  lg:after:content-['SEC'] md:after:content-['SEC'] after:content-['SEC'] after:text-[8px] md:after:text-[12px] lg:after:text-[16px] after:absolute md:after:absolute lg:after:absolute after:bottom-[4px] md:after:bottom-[-5px] lg:after:bottom-[-5px] after:left-[85%] md:after:left-[40%] lg:after:left-[40%] md:after:translateX(-50%) after:translateX(-50%)">00</span>
+
+            </div>
+        </div>
+
+    </div>
+    <span id="hrs2">00</span>
+    <span id="min2">00</span>
+    <span id="sec2">00</span>
+
+    <script src="clock.js"></script>
+</body>
+
+</html>

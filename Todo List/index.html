@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body class="flex justify-center bg-black">
+    
+
+    <div class="container">
+        <div class="todo-app w-[50%] mw-[540px] bg-white mt-[100px] mr-[auto] ml-[auto] mb-[20px] pt-[40px] pl-[30px] pr-[30px] pb-[70px] rounded-xl">
+            <h2 class="flex items-center mb-[20px]">ToDo List</h2>
+            <div class="row">
+                <input type="text" class="border" id="inputBox" placeholder="add text">
+                <button id="btn" class="border bg-gray-500 w-[60px] cursor-pointer">Add</button>
+            </div>
+            <ul id="listContainer">
+                <!-- <li class="checked">task 1</li>
+                <li>task 2</li>
+                <li>task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

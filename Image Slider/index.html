@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div  class="bg-red-600 flex items-center justify-center h-[100vh]">
+        <div class="w-[400px] h-[300px] truncate fixed">
+            <div class="flex items-center" id="slider">
+                <img class="w-[100%] h-[100%] object-contain" src="./img1.jpg" alt="">
+                <img class="w-[100%] h-[100%] object-contain" src="./img2.jpg" alt="">
+                <img class="w-[100%] h-[100%] object-contain" src="./img3.jpg" alt="">
+                <img class="w-[100%] h-[100%] object-contain" src="./img4.jpg" alt="">
+                <img class="w-[100%] h-[100%] object-contain" src="./img5.jpg" alt="">
+            </div>
+            <div class="pt-2"> 
+        <button class="border bg-gray-500 rounded" id="previousBtn">Previous</button>
+        <button class="border bg-gray-500 ml-10 rounded" id="nextBtn">Next</button>
+        </div>
+
+        </div>
+        
+    </div>
+    
+    <script src="imageSlider.js"></script>
+</body>
+
+</html>

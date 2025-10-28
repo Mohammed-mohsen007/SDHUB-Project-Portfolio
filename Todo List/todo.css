@@ -1,0 +1,24 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient( rgb(32, 32, 144), rgb(196, 27, 196));
+    background-size: cover;
+}
+
+ul li{
+    padding: 12px 8px 12px;
+    list-style: circle;
+    position: relative;
+}
+
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
