@@ -1,0 +1,29 @@
+.traffic-light{
+    width:  100px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.light{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    border-radius: 50%;
+}
+
+.redActive{
+    background: red;
+}
+
+.yellowActive{
+    background: yellow;
+}
+
+.greenActive{
+    background: green;
+}
